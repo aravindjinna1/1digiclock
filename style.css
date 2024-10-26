@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+   
+
+#main{
+    color: rgb(81, 2, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    scroll-behavior: none;
+    word-spacing: 20px;
+    /* background:linear-gradient(rgb(55, 160, 169),rgb(174, 211, 82),rgb(184, 55, 150)); */
+
+    /* background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    
+    background: linear-gradient(    
+        #ff4b1f, #1fddff);
+        font-family: "Oxanium", serif;
+       size: 20px;
+       font-size: 30px;
+
+  }
+    
+
+
+
+@media screen and (max-width: 360px) {
+    #main {
+        background: linear-gradient(#ff4b1f, #1fddff,rgb(110, 183, 41));
+
+        display: flex; /* Ensure flex display */
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        padding: 50px;
+        height: 100vh; /* Full height */
+        font-size: small;
+    }
+}
